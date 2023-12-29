@@ -24,7 +24,7 @@ const Myprojects = () => {
             <small className='text-light'>Three.js | React Three Fiber | TailwindCSS | Blender</small>
             <div className="portfolio__item-cta">
               <a href="https://github.com/SheLearningCode/personal-3dportfolio-website" target="_blank" rel='noreferrer' className='btn'>Github</a>
-              <a href="personal-3dportfolio-website.vercel.app" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
+              <a href="https://personal-3dportfolio-website.vercel.app" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
             
         </article>
