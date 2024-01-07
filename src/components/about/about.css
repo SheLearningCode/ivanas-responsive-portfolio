@@ -20,7 +20,7 @@
     max-width: 200px; /* Add a max-width to ensure it doesn't exceed a certain size */
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(-10deg);
+    transform: rotate(-360deg);
     transition: var(--transition);
 }
 
@@ -99,7 +99,7 @@
         height: auto;
         border-radius: 2rem;
         overflow: hidden;
-        transform: rotate(-10deg);
+        transform: rotate(-360deg);
         transition: var(--transition);
         object-fit: cover; /* Ensure the image covers the entire container while maintaining aspect ratio */
         max-height: 300px; /* Adjust the maximum height as needed */
