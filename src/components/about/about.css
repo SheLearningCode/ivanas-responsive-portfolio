@@ -16,8 +16,8 @@
 }
 
 .about__me-image {
-    width: 80%; /* Adjust the width as needed */
-    max-width: 200px; /* Add a max-width to ensure it doesn't exceed a certain size */
+    width: 100%; /* Adjust the width as needed */
+    max-width: 100%; /* Add a max-width to ensure it doesn't exceed a certain size */
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(-360deg);
@@ -94,7 +94,7 @@
     }
 
     .about__me-image {
-        width: 80%;
+        width: 100%;
         max-width: 100%; /* Use max-width: 100% to maintain responsiveness */
         height: auto;
         border-radius: 2rem;
