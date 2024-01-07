@@ -94,14 +94,16 @@
     }
 
     .about__me-image {
-        width: 100%;
+        width: 80%;
         max-width: 100%; /* Use max-width: 100% to maintain responsiveness */
         height: auto;
-        max-height: 200px; /* Adjust the maximum height as needed */
         border-radius: 2rem;
         overflow: hidden;
         transform: rotate(-10deg);
         transition: var(--transition);
+        object-fit: cover; /* Ensure the image covers the entire container while maintaining aspect ratio */
+        max-height: 300px; /* Adjust the maximum height as needed */
+
     }
 
     .about__cards {
@@ -114,7 +116,7 @@
     }
 
     .about__content p {
-        margin: 1.5rem 0 2.6rem; /* Adjust the top and bottom margin as needed */
+        margin: 3.5rem 0 2.6rem; /* Adjust the top and bottom margin as needed */
         color: var(--color-light);
     }
 }

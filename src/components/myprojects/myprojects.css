@@ -58,11 +58,15 @@
 
 /* Media queries for small devices(Mobiles) */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
 
     .portfolio__container{
-
+        display: grid;
         grid-template-columns: 1fr;
         gap: 1rem;
+    }
+    .portfolio__container > div {
+        width: 100%;
+        padding: 1.5rem;
     }
 }
