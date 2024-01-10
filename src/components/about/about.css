@@ -89,6 +89,7 @@
 
 /* Media queries for small devices (Mobiles) */
 @media screen and (max-width: 600px) {
+
     .about__me {
         width: 90%;
         margin: 0 auto 3rem;

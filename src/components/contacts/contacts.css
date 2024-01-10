@@ -18,10 +18,16 @@
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 1.2rem;
-    width: 130%;
+    width: 100%;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+}
+
+.contact__option small {
+    max-width: 100%;
+    font-size: .6rem; /* Adjust the font size as needed */
+    /* Add any other styles as needed */
 }
 
 .contact__option:hover{
@@ -84,5 +90,10 @@ input, textarea{
 
         width: var(--container-width-sm);
     }
+    .contact__option small {
+        max-width: 100%;
+        font-size: 1rem; /* Adjust the font size using relative units */
+        /* Add any other styles as needed */
+    }    
 }
 

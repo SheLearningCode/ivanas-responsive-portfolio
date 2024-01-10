@@ -47,6 +47,7 @@ header{
 
 .me{
 
+    display: flex;
     background: linear-gradient(var(--color-primary), transparent);
     width: 21rem;
     height: 23rem;
@@ -60,7 +61,7 @@ header{
 
 .me > img{
 
-    margin-left: 1.8rem;
+    margin-left: -0.5rem;
     width: 100%;
     max-width: 100%;
     height: 90%;
@@ -102,29 +103,33 @@ header{
     .scroll__down {
         display: none;
     }
-
+   
+    /* Styling for the image container */
     .me {
-        width: 90%; /* Adjust the percentage as needed */
+        width: 80%;
         max-width: 100%;
         height: auto;
-        max-height: 200%;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
-        margin-top: 4rem;
-        border-radius: 43rem 43rem 0rem 0rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
         overflow: hidden;
-        padding: 0;
-        aspect-ratio: 1.5/0;
+        border-radius: 50% 50% 0 0; /* Half-circle effect */
     }
 
+    /* Styling for the image itself */
     .me > img {
         width: 100%;
-        max-width: 110%;
+        height: auto;
         object-fit: cover;
-        border-radius: 2rem;
-        position: relative;
-        left: -7%; /* Adjust the percentage as needed to move the image more to the left */
+        border-radius: 0; /* Resetting border-radius for the image */
     }
-}
 
+}  
+/* Specific styles for iPhone X */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    .me {
+        width: 85%; /* Adjust the width as needed for iPhone X */
+    }
+} 
