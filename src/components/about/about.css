@@ -16,9 +16,9 @@
 }
 
 .about__me-image {
-    width: 100%; /* Adjust the width as needed */
-    max-width: 100%; /* Add a max-width to ensure it doesn't exceed a certain size */
-    border-radius: 2rem;
+    width: 110%; /* Adjust the width as needed */
+    max-width: 110%; /* Add a max-width to ensure it doesn't exceed a certain size */
+    border-radius: 1rem;
     overflow: hidden;
     transform: rotate(-360deg);
     transition: var(--transition);
@@ -67,6 +67,7 @@
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    padding-top: 15%;
 }
 
 /* Media queries for medium devices(Tablets) */
@@ -118,6 +119,7 @@
     .about__content p {
         margin: 3.5rem 0 2.6rem; /* Adjust the top and bottom margin as needed */
         color: var(--color-light);
+        padding-top: 10%;
     }
 }
 

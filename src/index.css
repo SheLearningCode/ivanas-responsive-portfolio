@@ -14,10 +14,10 @@
 /* defining some css variables */
 
 :root{
-
-    --color-bg: #1f1f38;
-    --color-bg-variant: #262686;
-    --color-primary: #4db5ff;
+    
+    --color-bg: linear-gradient(72deg, #7b8286, #5e6265, #8d6a23, #0c2458, #5da7a1, #4699c0);
+    --color-bg-variant: #4d66aa;
+    --color-primary: #8fb7d4;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255,  255, 255, 0.6);
@@ -29,6 +29,12 @@
     --transition: all 400ms ease;
 
 
+}
+
+@keyframes AnimationName {
+    0% { background-position: 32% 0%; }
+    50% { background-position: 69% 100%; }
+    100% { background-position: 32% 0%; }
 }
 
 html{
@@ -43,15 +49,14 @@ html{
     display: none;
 }
 
-body{
-
+body {
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
+    background-size: 1200% 1200%;
+    animation: AnimationName 18s ease infinite;
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/dragon1.png);
 }
-
 /* General Styles */
 
 .container{

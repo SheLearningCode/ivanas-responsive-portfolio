@@ -19,6 +19,7 @@ const Myprojects = () => {
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG1} alt="" />
+                <small>Personal Portfolio Website made for learning Three.js and Blender, feel free to fork.</small>
             </div>
             <h3>3D Portfolio Website</h3>
             <small className='text-light'>Three.js | React Three Fiber | TailwindCSS | Blender</small>
@@ -31,6 +32,7 @@ const Myprojects = () => {
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG2} alt="" />
+                <small>Student-Courses Management using CRUD operations and Springboot.</small>
             </div>
             <h3>Student CRM Backend Microservice</h3>
             <small className='text-light'>Spring Boot | Kotlin | REST | PostgreSQL</small>
@@ -42,6 +44,7 @@ const Myprojects = () => {
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG3} alt="" />
+                <small>Multi tenancy schema approach with dynamic tenant registration.</small>
             </div>
             <h3>Multi Tenancy Schema Approach</h3>
             <small className='text-light'>PostgreSQL | Quarkus | Flyway | Docker</small>
@@ -53,6 +56,7 @@ const Myprojects = () => {
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG4} alt="" />
+                <small>Student-Courses Management using CRUD operations and Quarkus.</small>
             </div>
             <h3>Student CRM Backend </h3>
             <small className='text-light'>Quarkus | Kotlin | PostgreSQL | Keycloak </small>
@@ -66,7 +70,7 @@ const Myprojects = () => {
                 <img src={IMG5} alt="" />
             </div>
             <h3>My Portfolio(This website)</h3>
-            <small className='text-light'>ReactJs</small>
+            <small className='text-light'>ReactJs | Email-js | react-icons </small>
             <div className="portfolio__item-cta">
               <a href="https://github.com/SheLearningCode/my-responsive-portfolio" target="_blank" rel='noreferrer' className='btn'>Github</a>
             </div>
@@ -75,6 +79,7 @@ const Myprojects = () => {
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={IMG6} alt="" />
+                <small>Visualizes and compares different sorting algorithms.</small>
             </div>
             <h3>Sorting Algorithms Visualizer</h3>
             <small className='text-light'>Java | Java AWT | Java Swing | MySQL</small>
