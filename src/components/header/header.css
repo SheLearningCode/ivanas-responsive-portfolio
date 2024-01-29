@@ -61,11 +61,11 @@ header{
 
 .me > img{
 
-    margin-left: -0.5rem;
-    width: 100%;
+    margin-left: 3.5rem;
+    width: 70%;
     max-width: 100%;
-    height: 90%;
-    border-radius: 20rem 20rem 0 0;
+    height: auto;
+    border-radius: 15rem 15rem 0rem 0rem;
 }
 
 /* Applying CSS for Scroll Down */
@@ -81,20 +81,14 @@ header{
 }
 
 /* Media queries for medium devices(Tablets) */
-
 @media screen and (max-width: 1024px) {
-
-    header{
-
-        height: 60vh;
+    header {
+        height: 50vh; /* Adjusted height for medium devices */
     }
-
 }
 
 /* Media queries for small devices (Mobiles) */
-
 @media screen and (max-width: 600px) {
-
     header {
         height: 100vh;
     }
@@ -103,17 +97,17 @@ header{
     .scroll__down {
         display: none;
     }
-   
+
     /* Styling for the image container */
     .me {
-        width: 80%;
+        width: 70%; /* Adjusted width for small devices */
         max-width: 100%;
         height: auto;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
         margin-top: 2rem;
-        margin-bottom: 0;
+        margin-bottom: 0rem;
         overflow: hidden;
         border-radius: 50% 50% 0 0; /* Half-circle effect */
     }
@@ -123,13 +117,14 @@ header{
         width: 100%;
         height: auto;
         object-fit: cover;
-        border-radius: 0; /* Resetting border-radius for the image */
-    }
+        margin-left: -0.05%;
 
-}  
+    }
+}
+
 /* Specific styles for iPhone X */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
     .me {
         width: 85%; /* Adjust the width as needed for iPhone X */
     }
-} 
+}

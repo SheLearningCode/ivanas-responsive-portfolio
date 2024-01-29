@@ -4,7 +4,7 @@ import {MdOutlineEmail} from 'react-icons/md'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-const Contacts = () => {
+function Contacts() {
 
   const form = useRef()
 
@@ -26,7 +26,7 @@ const Contacts = () => {
         <div className="contact__options">
 
           <article className='contact__option'>
-            <MdOutlineEmail className='contact__option-icon'/>
+            <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
             <small>maksimovic.ivana@protonmail.com</small>
             <a href="mailto:maksimovic.ivana@protonmail.com">Send a message</a>
@@ -35,14 +35,14 @@ const Contacts = () => {
 
         <form ref={form} onSubmit={sendEmail}>
 
-         <input type="text" name="name" placeholder="Your Full Name" required />  {/* client side validation */}
-         <input type="email" name='email' placeholder='Your Email' required /> 
-         <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-         <button type="submit" className='btn btn-primary'>Send Message</button>
+          <input type="text" name="name" placeholder="Your Full Name" required />  {/* client side validation */}
+          <input type="email" name='email' placeholder='Your Email' required />
+          <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
+          <button type="submit" className='btn btn-primary'>Send Message</button>
         </form>
-      </div>    
+      </div>
     </section>
-  )
+  );
 }
 
 export default Contacts
