@@ -69,10 +69,11 @@ const Myprojects = () => {
             <div className="portfolio__item-image">
                 <img src={IMG5} alt="" />
             </div>
-            <h3>My Portfolio(This website)</h3>
-            <small className='text-light'>ReactJs | Email-js | react-icons </small>
+            <h3>My Portfolio Website</h3>
+            <small className='text-light'>ReactJs | EmailJs | Bootstrap5 | ThreeJs </small>
             <div className="portfolio__item-cta">
-              <a href="https://github.com/SheLearningCode/my-responsive-portfolio" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://github.com/SheLearningCode/ivana-maksimovic" target="_blank" rel='noreferrer' className='btn'>Github</a>
+              <a href="https://ivana-maksimovic.vercel.app" target="_blank" rel='noreferrer' className='btn btn-primary'>Visit Website</a>  
             </div>
             
         </article>
