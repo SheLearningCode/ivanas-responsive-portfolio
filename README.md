@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Tech Stack
+
+- **JavaScript (ReactJS)**: Frontend framework for building interactive user interfaces.
+  - *Advantages*: Offers component-based architecture for reusability and maintainability. Provides a virtual DOM for efficient rendering and performance optimization.
+  - *Disadvantages*: Steep learning curve for beginners. May introduce overhead for small projects.
+
+- **CSS (Bootstrap, Tailwind CSS)**: Styling frameworks for creating responsive and visually appealing web applications.
+  - *Advantages*: Provides pre-designed components and utilities for faster development. Offers a responsive grid system for layout flexibility.
+  - *Disadvantages*: Can lead to larger CSS file sizes and increased specificity. May require additional customization for unique design requirements.
+
+- **HTML**: Markup language for structuring web pages.
+  - *Advantages*: Simple and intuitive syntax for defining the structure of web content.
+  - *Disadvantages*: Limited interactivity and styling capabilities compared to JavaScript and CSS.
+
+- **EmailJS**: Service for handling form submissions and sending emails from the client-side.
+  - *Advantages*: Simplifies the process of integrating email functionality into web applications. Provides a secure and reliable email delivery service.
+  - *Disadvantages*: Limited customization options compared to server-side email solutions. May require additional configuration for advanced use cases.
+
+## To-Dos and Improvements
+
+- Optimize rendering performance for better user experience, especially when dealing with large datasets or complex animations.
+- Enhance accessibility features to ensure compatibility with screen readers and assistive technologies.
+- Improve SEO by implementing meta tags, structured data, and other optimization techniques to increase visibility in search engine results.
+- Conduct usability testing to gather feedback from users and identify areas for improvement in user interface design and functionality.
+- Explore internationalization (i18n) to support multiple languages and localize content for a global audience.(working on it)
+- here also better using a server approach like nodemailer and express to store sensitive data securilly as dotenv is not secure enough and sensitive data may be displayed through web dev tools for example
